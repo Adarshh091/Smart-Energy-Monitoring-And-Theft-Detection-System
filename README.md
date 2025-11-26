@@ -33,7 +33,10 @@ It compares supply and load current to identify abnormal usage like bypass, thef
 2. *Off Condition* → Load ≈ 0, system idle  
 3. *Bypass Condition* → Supply = 0 A but Load > 1 A  
 4. *Reverse Condition* → Current flows opposite to supply line  
-5. *Theft Condition* → Difference > 0.6 A between Supply and Load  
+5. *Theft Condition* → Difference > 0.6 A between Supply and Load
+6. *Fluctuation Condition → Difference between Supply & Load keeps rapidly changing ( >0.6A ), more than 10 times in 1 minute.
+7. *Units Detection → Load Current is converted into Power & Time to calculate Units consumed (kWh).
+8. *Billing Calculation → Total Units × Tariff Rate gives the Electricity Bill. 
 
 When theft or bypass occurs → *LED & Buzzer turn ON* and *LCD freezes* with last reading.
 
