@@ -13,6 +13,11 @@ It compares supply and load current to identify abnormal usage like bypass, thef
 - Buzzer and LED alerts
 - Cloud-based IoT monitoring via Blynk
 - Automatic system reset
+- Fluctuation Detection System
+- Attention Aleart Mechanism
+- Risk Percentage Estimation
+- Unit Consumption Calculation
+- Smart billing system
 
 ---
 
@@ -34,9 +39,9 @@ It compares supply and load current to identify abnormal usage like bypass, thef
 3. *Bypass Condition* → Supply = 0 A but Load > 1 A  
 4. *Reverse Condition* → Current flows opposite to supply line  
 5. *Theft Condition* → Difference > 0.6 A between Supply and Load
-6. *Fluctuation Condition → Difference between Supply & Load keeps rapidly changing ( >0.6A ), more than 10 times in 1 minute.
-7. *Units Detection → Load Current is converted into Power & Time to calculate Units consumed (kWh).
-8. *Billing Calculation → Total Units × Tariff Rate gives the Electricity Bill. 
+6. Fluctuation Condition → Difference between Supply & Load keeps rapidly changing ( >0.6A ), more than 10 times in 1 minute.
+7. Units Detection → Load Current is converted into Power & Time to calculate Units consumed (kWh).
+8. Billing Calculation → Total Units × Tariff Rate gives the Electricity Bill. 
 
 When theft or bypass occurs → *LED & Buzzer turn ON* and *LCD freezes* with last reading.
 
@@ -74,7 +79,7 @@ Users can monitor:
 ---
 
 ## 👥 Team Members
-Adarsh Kumar | Abhinav Singh | Netraja | Sakshi Choubey 
+Adarsh Kumar | Netraja | Sakshi Choubey | Abhinav Singh 
 ---
 
 
