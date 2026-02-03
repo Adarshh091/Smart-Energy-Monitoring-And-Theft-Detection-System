@@ -79,7 +79,7 @@ Users can monitor:
 ---
 
 ## 👥 Team Members
-Adarsh Kumar | Netraja | Sakshi Choubey | Abhinav Singh 
+Adarsh Kumar | Sakshi Choubey | Netraja | Abhinav Singh 
 ---
 
 
